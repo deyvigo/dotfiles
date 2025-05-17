@@ -1,0 +1,165 @@
+@import "frappe.css";
+
+* {
+  border: none;
+  border-radius: 0;
+  font-family: 'FantasqueSansM Nerd Font', monospace;
+  font-weight: bold;
+  font-size: 16px;
+  min-height: 0;
+}
+
+window#waybar {
+  border: solid 2px @lavender;
+  border-radius: 8px;
+  background: transparent;
+  color: @text;
+  opacity: 1;
+}
+
+#workspaces button {
+  padding: 0px;
+  background-color: @blue;
+  border-radius: 999px;
+  margin: 3px;
+  color: @blue;
+  /* margin-right: 5px; */
+}
+
+#workspaces button.active {
+  color: @pink;
+  background-color: @pink;
+}
+
+#workspaces button.focused {
+  color: @blue;
+  background: @base;
+  /* border-radius: 10px; */
+}
+
+#workspaces button.urgent {
+  color: @red;
+  background: @crust;
+  /* border-radius: 10px; */
+}
+
+#clock,
+#custom-icon,
+#window,
+#battery,
+#pulseaudio-slider,
+#pulseaudio,
+#network,
+#bluetooth,
+#cpu,
+#memory,
+#workspaces,
+#tray,
+#backlight,
+#custom-window-title {
+  background: @base;
+  padding: 1px 12px;
+  margin: 8px 3px 8px 3px;
+  border-radius: 30px 10px 30px 10px;
+}
+
+#clock {
+  /* border-radius: 10px 10px 10px 10px; */
+  border: 2px solid @mauve;
+  margin: 8px 12px 8px 3px;
+  color: @mauve;
+}
+
+#custom-icon {
+  color: @yellow;
+  font-size: 20px;
+  margin: 8px 3px 8px 12px;
+}
+
+#window {
+  border: 2px solid @sapphire;
+}
+
+#battery {
+  color: @yellow;
+  /* border-radius: 0px 10px 10px 0px; */
+  border: none;
+}
+
+#pulseaudio-slider {
+  min-width: 70px;
+}
+
+#pulseaudio-slider slider {
+  background: @yellow;
+  box-shadow: none;
+  border-radius: 50%;
+}
+
+#pulseaudio-slider highlight {
+  background-color: @yellow;
+}
+
+#pulseaudio-slider trough {
+  background-color: @text;
+  min-height: 2px;
+  border-radius: 8px;
+}
+
+#pulseaudio {
+  color: @yellow;
+  border: none;
+}
+
+#pulseaudio.microphone {
+  color: @blue;
+  /* border-radius: 0px 10px 10px 0px; */
+  border: none;
+}
+
+#network {
+  color: @red;
+  /* font-size: 20px; */
+  /* border-radius: 10px 0px 0px 10px; */
+  border: 2px solid @red;
+}
+
+#bluetooth {
+  color: @yellow;
+}
+
+#cpu {
+  /* border-radius: 0px 10px 10px 0px; */
+  color: @sky;
+  border: none;
+}
+
+#memory {
+  /* border-radius: 10px 0px 0px 10px; */
+  color: @flamingo;
+  border: 2px solid @flamingo;
+}
+
+#workspaces {
+  background: @base;
+  /* border-radius: 10px; */
+  /* margin-left: 10px; */
+  border: 2px solid @blue;
+  /* border: 2px solid @text; */
+}
+
+#tray {
+  /* border-radius: 10px; */
+  /* margin-right: 10px; */
+  border-right: 0px
+}
+
+#backlight {
+  /* border-radius: 10px 0px 0px 10px; */
+  color: @green;
+}
+
+#custom-window-title {
+  color: @pink;
+  min-width: 50px;
+}
