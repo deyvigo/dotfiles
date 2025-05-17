@@ -1,0 +1,59 @@
+{
+  "editor.cursorBlinking": "expand",
+  "workbench.colorTheme": "Kanagawa Wave",
+  "editor.guides.bracketPairs": true,
+  "editor.fontFamily": "'FantasqueSansM Nerd Font', monospace",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "'FantasqueSansM Nerd Font', monospace",
+  "workbench.productIconTheme": "fluent-icons",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "explorer.confirmDelete": false,
+  "workbench.sideBar.location": "right",
+  "workbench.preferredLightColorTheme": "Default Dark+",
+  "editor.fontSize": 13,
+  "editor.wordWrap": "on",
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "prettier.semi": false,
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "eslint.codeActionsOnSave.rules": null,
+  // "[html]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // }
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always"
+  },
+  "eslint.validate": [
+      "javascript"
+  ],
+  "workbench.startupEditor": "none",
+  "codesnap.backgroundColor": "#fff",
+  "codesnap.boxShadow": "none",
+  "codesnap.showLineNumbers": false,
+  "codesnap.showWindowTitle": true,
+  "codesnap.showWindowControls": false,
+  "redhat.telemetry.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "dart.flutterHotReloadOnSave": "manual",
+  "pasteImage.basePath": "${projectRoot}/images",
+  "pasteImage.path": "${projectRoot}/images",
+  "pasteImage.prefix": "images/",
+  "markdown-pdf.footerTemplate": "",
+  "markdown-pdf.headerTemplate": "",
+  "markdown-pdf.margin.bottom": "2.54cm",
+  "markdown-pdf.margin.left": "2.54cm",
+  "markdown-pdf.margin.right": "2.54cm",
+  "markdown-pdf.margin.top": "2.54cm",
+  "markdown-pdf.displayHeaderFooter": false,
+  "markdown-pdf.styles": [
+    "~/uni/md-pdf/styles.css"
+  ],
+  "markdown.preview.scrollPreviewWithEditor": false,
+  "markdown.preview.scrollEditorWithPreview": false
+}

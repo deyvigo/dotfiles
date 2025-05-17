@@ -5,10 +5,22 @@
 /matplotlib
 /go
 /gnome-session
-/Code
 /BraveSoftware
 /dconf
 /ibus
+
+# Vscode
+Code/*
+
+!Code/User/
+
+Code/User/*
+
+!Code/User/settings.json
+
+
+
+
 .gsd-keyboard.settings-ported
 baloofilerc
 mimeapps.list
