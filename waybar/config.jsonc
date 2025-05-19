@@ -18,10 +18,10 @@
     // "tray",
     "memory",
     // "cpu",
+    "backlight", 
     "network",
     "bluetooth",
     "battery",
-    "backlight",
     // "pulseaudio#microphone",
     "group/audio",
     "clock"
