@@ -1,6 +1,6 @@
 {
   "editor.cursorBlinking": "expand",
-  "workbench.colorTheme": "Kanagawa Dragon",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "editor.guides.bracketPairs": true,
   "editor.fontFamily": "'FantasqueSansM Nerd Font', monospace",
   "editor.fontLigatures": true,
@@ -52,7 +52,7 @@
   "markdown-pdf.margin.top": "2.54cm",
   "markdown-pdf.displayHeaderFooter": false,
   "markdown-pdf.styles": [
-    "~/uni/md-pdf/styles.css"
+    "/home/yesdey/.config/vscode/styles.css"
   ],
   "markdown.preview.scrollPreviewWithEditor": false,
   "markdown.preview.scrollEditorWithPreview": false

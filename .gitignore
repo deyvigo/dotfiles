@@ -8,6 +8,8 @@
 /BraveSoftware
 /dconf
 /ibus
+/go
+/gopls
 
 # Vscode
 Code/*
