@@ -343,14 +343,14 @@
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#303446"
     foreground = "#888888"
-    timeout = 5
+    timeout = 2
     # Icon for notifications with low urgency
     default_icon = dialog-information
 
 [urgency_normal]
     background = "#303446"
     foreground = "#ffffff"
-    timeout = 5
+    timeout = 2
     override_pause_level = 30
     # Icon for notifications with normal urgency
     default_icon = dialog-information
