@@ -28,7 +28,8 @@
   ],
 
   "custom/icon": {
-    "format": "󰣇 ",
+    "format": ",",
+    // "format": "󰣇 ",
     "on-click": "~/.config/rofi/modules/shutdown_menu.sh"
   },
 

@@ -10,6 +10,10 @@
 /ibus
 /go
 /gopls
+/autostart
+/JetBrains
+/Postman
+/pnpm
 
 # Vscode
 Code/*
