@@ -6,3 +6,5 @@
   Xcursor.theme: Sweet-cursors
   Xcursor.size: 24
 ```
+
+nwg-look for change nautilus theme

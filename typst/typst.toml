@@ -1,0 +1,10 @@
+[package]
+name = "commons-tenplate"
+version = "1.0.0"
+entrypoint = "main.typ"
+authors = []
+license = "MIT"
+description = ""
+
+[tool.utpm]
+namespace = "local"

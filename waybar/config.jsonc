@@ -17,7 +17,7 @@
   "modules-right": [
     // "tray",
     "memory",
-    // "cpu",
+    "cpu",       
     "backlight", 
     "network",
     "bluetooth",
@@ -28,7 +28,8 @@
   ],
 
   "custom/icon": {
-    "format": ",",
+    "format": "󰌽 ",
+    // "format": ",",
     // "format": "󰣇 ",
     "on-click": "~/.config/rofi/modules/shutdown_menu.sh"
   },

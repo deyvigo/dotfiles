@@ -87,7 +87,7 @@ window#waybar {
 }
 
 #pulseaudio-slider {
-  min-width: 70px;
+  min-width: 80px;
 }
 
 #pulseaudio-slider slider {
